@@ -25,6 +25,7 @@ export function ChatMessages({ chatMessages }) {
           key={chatMessage.id}
           message={chatMessage.message}
           sender={chatMessage.sender}
+           time={chatMessage.time}
         />
       ))}
     </div>
